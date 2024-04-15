@@ -1,0 +1,40 @@
+@import '~bootstrap/scss/bootstrap';
+body {
+    background-color: #555555;
+}
+//navbar admin section
+#navbar{
+    width: 100vw;
+    height: 20%;
+    background-color: #090021;
+}
+#navbar img{
+    width: 10%;
+}
+#navbar a{
+    font-family: sans-serif;
+    color: #FD129E;
+    text-decoration: none;
+    padding-left: 1%;
+}
+#navbar i{
+    color: #FD129E;
+}
+
+
+
+//admin operators section
+#container{
+    overflow-y: auto;
+}
+.img{
+    width: 6em;
+}
+
+#preview{
+    height: 300px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
